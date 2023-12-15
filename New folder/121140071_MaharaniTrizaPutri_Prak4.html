@@ -1,0 +1,34 @@
+<!-- by Maharani Triza Putri - 121140071  -->
+<!-- Praktikum Pemrograman Web RB - Tugas 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prak4</title>
+</head>
+<body> 
+    <h1>Tugas Ganjil Genap</h1>
+    <p>Hasilnya dilihat melalui console.log</p>
+    <script>
+        //inisialisasi variabel dengan value
+        let ganjil = 0;
+        let genap = 0;
+        let bilangan = 10;
+
+        //perulangan untuk menghitung jumlah bilangan
+        for(let i=1; i<=bilangan; i++){
+            if(i%2 == 0){
+                genap++;
+            }else{
+                ganjil++;
+            }
+        }
+
+        //menampilkan hasil perhitungan jumlah bilangan ganjil dan genap
+        console.log(`Jumlah ganjil: ${ganjil}`);
+        console.log(`Jumlah genap: ${genap}`);
+    </script>
+</body>
+</html>

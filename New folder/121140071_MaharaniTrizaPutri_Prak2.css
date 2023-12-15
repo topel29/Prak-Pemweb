@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: Arial;
+}
+
+.profil{
+    display: flex;
+    justify-content: start;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    padding: 10px;
+}
+
+.foto_profil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.info_profil{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.info_profil h1{
+    margin: 0px;
+}
+
+.info_profil p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    background-color: gray;
+}
+
+.navbar li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+}
+
+.bagian1, .bagian2, .bagian3{
+    background-color: white;
+    margin:15px 10px;
+    padding: 20px;
+}
+
+.bagian1 ul{
+    margin-top: 40px;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+h2{
+    margin: 0px;
+}
+
+.mytable th{
+    background-color: rgb(221, 221, 221);
+}
+
+.mytable{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+button{
+    border: none;
+    background-color: rgb(240, 220, 3);
+}

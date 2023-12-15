@@ -1,5 +1,3 @@
-<!-- by Maharani Triza Putri - 121140071  -->
-<!-- Praktikum Pemrograman Web RB - Tugas 7 -->
 
 <?php
 
@@ -21,8 +19,8 @@ class Mahasiswa{
     }
 }
 
-$Maharani = new Mahasiswa("Maharani Triza Putri","121140071","Teknik Informatika");
-$Maharani->dataMhs();
+$topel = new Mahasiswa("Christopher Gilbert Bontor Rumapea","120140045","Teknik Informatika");
+$topel->dataMhs();
 
 class Presma extends Mahasiswa{
     public $status;
@@ -46,7 +44,7 @@ class Presma extends Mahasiswa{
 $presmaBaru = new Presma("Henry", "12114001", "Teknik Informatika", "Mahasiswa", 2021);
 $presmaBaru->infoPresma();
 
-class akunMaharani{
+class akuntopel{
     public $username;
     private $password;
     public function __construct($username, $password) {
@@ -68,7 +66,7 @@ class akunMaharani{
 }
 
 try{ 
-    $Akunsaya = new akunMaharani("MaharaniTriza", "-");
+    $Akunsaya = new akuntopel("Topel", "-");
 
     $Akunsaya->setPw("teknikinformatika");
 
@@ -77,7 +75,7 @@ try{
     echo "Error!!! ".$e->getMessage()."<br>";
 }
 
-$html = '<p>Nama saya <span style="color:red;">Maharani</span> dengan NIM <span style="color:blue;">121140087</span></p>';
+$html = '<p>Nama saya <span style="color:red;">topel</span> dengan NIM <span style="color:blue;">121140087</span></p>';
 
 $regex = '/<span style="color:\s*([^"]+)">/';
 
